@@ -1,0 +1,25 @@
+frecuencia 2hz
+
+f=2hz
+periodo=0.5s
+periodo/2=0.25s
+
+8192x(12/11.0592)xk=0.25x1000000us
+
+k=28,12 veces necesito llegar a 8192
+
+
+frecuencia de 12hz
+
+8192x(12/11.0592)xk=0.041x1000000us
+k=4,68
+
+frecuencia de 22hz
+
+8192x(12/11.0592)xk=0.022x1000000us
+k=2,55
+
+frecuencia de 32hz
+
+8192x(12/11.0592)xk=0.015x1000000us
+k=1,75
