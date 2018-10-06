@@ -1,0 +1,7 @@
+Frecuencia de Reloj:  11.0592
+
+Periodo de timer 0,1 : 1.0851 microsegundos
+
+Formula para las cuentas:
+
+		(Periodo de timer)xCuentas=(Tiempo que necesito)

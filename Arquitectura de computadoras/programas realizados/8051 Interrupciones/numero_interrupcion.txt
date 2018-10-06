@@ -1,0 +1,5 @@
+
+mov A,#0 ; Interrupcion p3.2
+mov A,#1 ; Interrupcion T0
+mov A,#2 ; Interrupcion p3.3
+mov A,#3 ; Interrupcion T1
