@@ -1,0 +1,46 @@
+Lo que se plantea aqui es conseguir ordenar n numeros
+en O(n) para todo w(tamaño de palabra de las claves).
+
+Radix sort solo trabaja con tamaño de w menor a O(log n)
+
+el metodo signature sort permite ordenar en tiempo O(n) para
+valores mas altos. Entonces:
+
+-Se conocera el metodo, mediante 4 procedimientos:
+
+1. Bitonic Sequences
+2. Logarithmic Merge Operation
+3. Packed Sorting
+4. Signature Sort Algorithm
+
+1. Secuencias Bitonicas
+-----------------------
+
+Secuencia bitónica: una secuencia de elementos <a0, a1, a2,…, an-1> tal que:
+
+1) O existe un índice i tal que <a0, a1,…, ai> es monótonamente creciente y <ai+1,…,an-1> es monótonamente decreciente.
+2) O existe un desplazamiento cíclico de los índices tal que 1) se cumpla.
+
+Propiedad (de toda secuencia bitónica de n elementos):
+
+-Si realizamos la operación “comparar-intercambiar” con los elementos ai y a(i+n/2),
+ obtenemos dos subsecuencias bitónicas, con los números de una secuencia menores 
+ que los de la otra.
+
+-Aplicando recursivamente “comparar-intercambiar” a las subsecuencias,
+ llegaremos a listas bitónicas de tamaño uno, y así la lista inicial 
+ de n elementos estará ordenada. 
+
+2. Logarithmic Merge Operation
+------------------------------
+se combinan dos palabras ordenadas, de kb bits concadenando la primera palabra
+con el reverso de la otra.
+
+3. Packed Sorting
+--------------------
+
+4. Signature Sort Algorithm
+-----------------------------
+
+
+
