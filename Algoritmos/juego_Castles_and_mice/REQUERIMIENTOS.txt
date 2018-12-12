@@ -1,0 +1,15 @@
+
+Para activar frecuencia de Reloj de juego:
+
+Actionaz desde repositorio:
+sudo add-apt-repository ppa:adri2000/actionaz
+sudo apt-get update
+sudo apt-get install actionaz
+
+
+Actionaz directo de ubuntu:
+sudo apt-get update
+sudo apt-get install actionaz
+
+
+luego de la instalación proceda a abrir el archivo 500ms.ascr
